@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: rgba(103, 103, 103, 0.53);
 
 }
 
@@ -23,13 +24,13 @@ header{
 #logo-text{
   text-align: center;
   font-size: 30px;
-  font-weight:1000 ; 
+  font-weight:1000 ;
   vertical-align: middle;
 }
 
 .container{
   width: 80%;
-  margin:auto;
+  margin:0 auto;
   background-color: white;
   border-radius: 10px;
 }
@@ -37,7 +38,6 @@ header{
 .top{
   height:80px;
   line-height: 80px;
-
   border-bottom: solid 1px grey;
 }
 
@@ -51,18 +51,20 @@ header{
 
 .button1{
  color: white;
- background-color: blue;
+ background-color: rgba(29, 190, 180, 0.75);
   margin-left: 50px;
 }
 
 .button2{
  color: grey;
- background-color: transparent;
+ background-color: rgba(84, 84, 84, 0.05);
 }
 
 .bottom{
   padding:50px 50px;
   background-color: white;
+  border-bottom: solid 1px grey;
+  border-radius: 0 0 10px 10px;
 }
 
 ul{
@@ -78,6 +80,10 @@ li h3:before{
   content: '\25BC';
   }
 
+.text{
+  margin-right: 3px;
+}
+
 .btn{
   color:white;
   border-radius: 20px;
@@ -87,9 +93,28 @@ li h3:before{
 }
 
 .color1{
-  background-color: blue;
+  background-color: rgba(29, 190, 180, 0.75);
 }
 
 .color2{
-  background-color: red;
+  background-color: rgba(198, 87, 22, 0.83);
+}
+
+#email{
+  margin-right: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer h3{
+  margin-left:50px;
+  padding-top: 10px;
+}
+
+.button3{
+  color: white;
+  background-color: rgba(29, 190, 180, 0.75);
 }
